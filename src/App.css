@@ -48,3 +48,19 @@ button:disabled:hover {
     border-bottom: none;
     padding: 15px 0;
 }
+
+@media (max-width: 1023.98px) {
+    form {
+        width: 60%;
+    }
+}
+@media (max-width: 767.98px) {
+    form {
+        width: 70%;
+    }
+}
+@media (max-width: 479.98px) {
+    form {
+        width: 80%;
+    }
+}

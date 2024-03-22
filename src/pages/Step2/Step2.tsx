@@ -55,7 +55,6 @@ const Step2 = () => {
             setError('');
             setBtnDisabled(false);
         } else {
-            setError('Enter a correct phone number');
             setBtnDisabled(true);
         }
         setPhone(value);

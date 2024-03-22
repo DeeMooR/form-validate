@@ -73,8 +73,8 @@ const Step1 = () => {
                 error={errors.password}
                 minLength={8}
                 pattern={{
-                    value: /^(?=.*\d)(?=.*[a-zA-Z])(?=.*[!#$%&?]).*$/,
-                    message: 'The password must contain numbers, letters and special characters',
+                    value: /^(?=.*\d)(?=.*[a-zA-Z]).*$/,
+                    message: 'The password must contain numbers, letters',
                 }} 
             />
             <button disabled={!isValid}>Next</button>
