@@ -1,0 +1,35 @@
+.flex__buttons {
+    display: flex;
+    gap: 2px;
+}
+.button__back {
+    width: 25%;
+    max-width: 150px;
+    min-width: 85px;
+    border-radius: 10px 0 0 10px;
+}
+.button__send {
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.react-tel-input.container_custom {
+    margin: 0 0 10px 0;
+}
+.react-tel-input .form-control.input_custom {
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.react-tel-input .flag-dropdown.button_custom,
+.react-tel-input .flag-dropdown.button_custom > .selected-flag {
+    border-radius: 10px 0 0 10px;
+}
+.react-tel-input .form-control.input_custom:focus {
+    border: 2px solid cornflowerblue;
+}
+.react-tel-input .form-control.input_custom:focus ~ .flag-dropdown.button_custom {
+    border: 2px solid cornflowerblue;
+    border-right: 1px solid #CACACA;
+}
